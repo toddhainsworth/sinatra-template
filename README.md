@@ -58,7 +58,7 @@ end
 An that's it! The template takes care of requiring the models, so you can just start
 writing a great web app!
 
-### Views
+## Views
 
 Views are the same as they are in vanilla Sinatra, go about it as you usually would!
 
