@@ -3,7 +3,7 @@ configure :development do
   db = URI.parse('postgres://localhost/database_name')
 
   ActiveRecord::Base.establish_connection(
-    adapter: 'postgresql',
+    adapter: db.scheme == 'postgres' ? 'postgresql' : db.scheme,
     host: db.host,
     username: 'your_username',
     password: 'your_password',
