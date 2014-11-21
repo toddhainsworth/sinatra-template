@@ -62,13 +62,13 @@ writing a great web app!
 
 Views are the same as they are in vanilla Sinatra, go about it as you usually would!
 
-## Routes
+### Routes
 
 Routes are also the same as vanilla Sinatra, they are defined in `app.rb`
 
 NOTE: in Sinatra, the routes are basically the same as controller actions, so treat them as such.
 
-## Helpers
+### Helpers
 
 Helpers are defined in seperate organisational files in `helpers`.
 
