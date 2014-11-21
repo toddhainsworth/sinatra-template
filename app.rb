@@ -8,11 +8,10 @@ Dir['./models/**/*.rb'].each { |file| require file }
 # Load Helpers
 Dir['./helpers/**/*_helper.rb'].each { |file| require file }
 
-# Include your helpers as you need them
 helpers do
-  include SampleHelper
+  # Include your helpers as you need them
 end
 
 get '/' do
-  erb "The current time is <%= current_time %>"
+  "Thanks for using this template! :) <3"
 end
